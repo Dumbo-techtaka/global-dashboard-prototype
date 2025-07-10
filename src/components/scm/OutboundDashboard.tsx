@@ -123,8 +123,8 @@ export const OutboundDashboard = () => {
               {getText("totalOutbound")} ({getText("totalOf")} 68%)
             </p>
             <div className="mt-2">
-              <Badge className="mr-2">SG: 8,900</Badge>
-              <Badge variant="secondary">US: 18,900</Badge>
+              <Badge className="mr-2">US: 18,900</Badge>
+              <Badge variant="secondary">SG: 8,900</Badge>
             </div>
           </CardContent>
         </Card>
@@ -135,13 +135,14 @@ export const OutboundDashboard = () => {
             <Package className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">11,334</div>
+            <div className="text-2xl font-bold">7,300</div>
             <p className="text-xs text-muted-foreground">
-              {getText("totalOutbound")} ({getText("totalOf")} 29%)
+              {getText("totalOutbound")} ({getText("totalOf")} 61%)
             </p>
             <div className="mt-2">
-              <Badge className="mr-2">Qoo10: 4,500</Badge>
-              <Badge variant="secondary">{getText("others")}: 6,834</Badge>
+              <Badge className="mr-2">US: 4,500</Badge>
+              <Badge variant="secondary">SG: 2,800</Badge>
+              {/* <Badge variant="secondary">{getText("others")}: 6,834</Badge> */}
             </div>
           </CardContent>
         </Card>

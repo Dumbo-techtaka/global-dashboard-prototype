@@ -1,1 +1,60 @@
- 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0F172A"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Main content container -->
+  <rect x="80" y="80" width="1040" height="470" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="100" y="100" width="1000" height="60" rx="8" fill="#0F172A"/>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#F8FAFC">
+    Global SCM Dashboard
+  </text>
+  
+  <!-- Stats cards -->
+  <rect x="120" y="180" width="200" height="120" rx="8" fill="#065F46" stroke="#10B981" stroke-width="1"/>
+  <text x="140" y="210" font-family="Arial, sans-serif" font-size="14" fill="#A7F3D0">Total Stock</text>
+  <text x="140" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#10B981">1.28M</text>
+  
+  <rect x="340" y="180" width="200" height="120" rx="8" fill="#1E40AF" stroke="#3B82F6" stroke-width="1"/>
+  <text x="360" y="210" font-family="Arial, sans-serif" font-size="14" fill="#BFDBFE">Outbound</text>
+  <text x="360" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3B82F6">23.8K</text>
+  
+  <rect x="560" y="180" width="200" height="120" rx="8" fill="#7C2D12" stroke="#F97316" stroke-width="1"/>
+  <text x="580" y="210" font-family="Arial, sans-serif" font-size="14" fill="#FED7AA">Inbound</text>
+  <text x="580" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#F97316">156K</text>
+  
+  <!-- Chart area -->
+  <rect x="120" y="320" width="640" height="200" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Chart bars -->
+  <rect x="140" y="420" width="20" height="80" fill="#10B981"/>
+  <rect x="180" y="400" width="20" height="100" fill="#3B82F6"/>
+  <rect x="220" y="440" width="20" height="60" fill="#F97316"/>
+  <rect x="260" y="380" width="20" height="120" fill="#10B981"/>
+  <rect x="300" y="410" width="20" height="90" fill="#3B82F6"/>
+  <rect x="340" y="430" width="20" height="70" fill="#F97316"/>
+  <rect x="380" y="390" width="20" height="110" fill="#10B981"/>
+  
+  <!-- Regions -->
+  <circle cx="850" cy="220" r="60" fill="#065F46" stroke="#10B981" stroke-width="2"/>
+  <text x="835" y="215" font-family="Arial, sans-serif" font-size="12" fill="#A7F3D0">SG</text>
+  <text x="830" y="230" font-family="Arial, sans-serif" font-size="10" fill="#10B981">45%</text>
+  
+  <circle cx="950" cy="280" r="70" fill="#1E40AF" stroke="#3B82F6" stroke-width="2"/>
+  <text x="935" y="275" font-family="Arial, sans-serif" font-size="12" fill="#BFDBFE">US</text>
+  <text x="930" y="290" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6">55%</text>
+  
+  <!-- Footer text -->
+  <text x="600" y="590" font-family="Arial, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">
+    Overseas Fulfillment Center Management
+  </text>
+</svg> 
